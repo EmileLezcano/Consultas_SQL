@@ -1,0 +1,200 @@
+﻿6163	Thinking in variables? What else could I think in? Some background. I know a little PASCAL and am using this as a project to learn Python.	16
+6163	Thanks! Much simpler than what I wrote	16
+6103	In the last paragraph; I'm looking for a nice way to delete and move lines of code.	9
+6163	No, this is for a laptop that moves around a lot. It never uses the same router.	16
+6163	Thanks! I had been using OpenDNS, but I couldn't control at the directory level.	16
+8406	I've been thinking of just adding the hash'es togheter. I'm a bit worried that I might get false negatives, but I'll find out :-)	6
+8406	Sorting the hashes is also a possibility that I have considered. I'm a bit concerned about memory usage, but I'll worry about that later.	6
+8979	thanks! it's the first time i heard of wideimage ;) i'll check it out	26
+8979	btw i've had some problems when I use phpThumb on some shared hosts	26
+8979	not the answer that i'm looking for, but certainly good information! ;)	26
+8979	it's much simpler than using the GD image functions directly	26
+7160	Thanks for the response.  I added clarification. The original question was purposely vague to test StackOverflow's editing capabilities and process.  I know about the command-line capabilities, but the lack of a live desktop seems to break Robot's ability to test.	6
+9661	I think you are right. Another link with more details on which languages capitalize and which don't. http://meta.wikimedia.org/wiki/Capitalization#Capitalization_of_month_names	53
+9557	I implemented the Fisher-Yates Shuffle real quick and while it didn't provide more random results than some other methods I tried it was significantly faster (about 1/4 the total time). That said, it still took about 4x as long as shuffle().	48
+9626	Yes, but how do I do this using the LINQDataSource object?	57
+10476	I need to explain a bit more. There is a filtering condition for copying the rows. So, a plain Copy() will not work.	73
+10476	Only specific rows. Updated the post too.	73
+10476	Would have worked. but the filtering condition is not that straightforward. It could change depending on some values.	73
+10476	It is not exactly a clone. I guess manually iterating through the datatable is the only option..	73
+10476	The SQL query is out of my control :(. Thats the biggest problem I am having.	73
+10476	The DataTable structure of the source is pathetic. I need to modify that to make it presentable to the UI..	73
+5177	I'm not 100% sure if this would work or not but it looks promising.	8
+6828	As a reference the O'Reilly book is available from <http://www.asteriskdocs.org/>	34
+11890	Hm, Tapestry looks promising...  they have nice screencasts... http://tapestry.apache.org/tapestry5/screencast.html  Will check it out, thnx a lot.	33
+7209	Yes, your assumptions is correct - sorry I did not specify. Further to this answer, does anyone know whether this Excel or Windows behaviour?	28
+11890	thnx for useful answer, do you have any experience with Spring portlets MVC? Some tutorials, guidances? Maybe can recommend a portal server?	33
+9547	Part two of the question would be is it possible client-side only?	78
+11950	ls *.jpg | xargs -n 10 ./copy.sh  bash: /bin/ls: Argument list too long cp: cannot stat `0': No such file or directory	35
+11950	I made a mistake. There were 280,000 images :)	35
+12550	ive been giving rescuetime a test run, and its kinda nice. you can rate your activities based on how productive you are.	1
+12550	interesting. its for company work, but i'm offsite, so its basically personal use. im still gonna check it out.	1
+9623	He just wants to remove the first comma.	91
+12117	This is the best solution.  I didn't realize that it was working at first because explorer cached my icon, so I also discovered that you can set the conditions via that icon properties in the resource viewer.	53
+9111	We are only running local, and not using marshalling, so this doesn't seem to apply to us.	51
+13128	Yeah I agree, I use igoogle to read all the news at one place, check my gmail, gcalender, etc.	36
+13277	While it's easy to bind /proc, discrepancies within that data would be cumbersome to mask.  Answer accepted.	98
+13277	Actually, scratch that - what about non-linux systems that don't have /proc and friends to begin with?	98
+13277	I'm staring at a BSD system right now, no /proc here.	98
+13071	Thank you, that's working for me just perfectly!	13
+11950	mencoder mf://@../test.txt -mf w=640:h=480:fps=30:type=jpg -ovc lavc -lavcopts vcodec=msmpeg4v2 -nosound -o ../output-msmpeg4v2.avi  Still stops at 7500 or so files....even though they are all in the test file.	35
+11950	Looks like that fixed things. I just deleted a couple of files from the text listing around that area. It got stuck on 9600 this time. Time to do some more deleting.	35
+9882	Needing to install pskill is not ideal.  I'd prefer a solution that does not require me to install anything new.	65
+10251	That also works, and allows me to use sed. Thanks!	78
+13817	How do you increase the TTL without using raw sockets in C?	11
+13817	What about packets with a custom TTL?	11
+13817	The source code of traceroute.c expects the user to be root in order to rewrite the TTL of the packet - if you look at your distro traceroute is most likely setuid root.	11
+12211	Yes, it is a window passed from NSAPI call, but used in separate (child) process where the plugin actually works. XGetWindowAttributes gives information but not whether the window is covered, or - most important - scrolled down and partially visible, which is what I need.	21
+14836	we're using Sql Server 2005. We're primarily a CF shop with some leanings toward .NET in the near term.	62
+14429	That's interesting.  Does Ruby do Win32 as thoroughly as Python?	13
+14836	Yea, BizTalk is way too expensive even though, in truth, we could use some of the functionality (I think). It *seems* like XSLT is a nice middle-ground solution. But I need to do some perf tests. Our source XML is relatively small in size.	62
+14874	Thanks for the swift response. I don't want to read the stream however. I want to access the console buffer which is displayed in the command window. It would be similar to doing screen scraping on a html page.	16
+14874	I think I need to use the AttachConsole method of the console then the ReadConsoleOutput method to access a rectangle of character and attribute data. I don't know how to do this in managed code.	16
+13098	This solution appears to only work for Linux using the Tritonus implementation of the Java Sound API (it essentially provides a CDDA extension to the standard API).	71
+15023	This won't help if the original style is applied to all span tags.	13
+15023	Thanks for replay. Because I want to get the position of the element I just inserted.	13
+15023	But I don't know the whether the outter element is a <p> or a span.	13
+15023	But I don't know the margin and padding of the outter text, I want the element I inserted to appear like the outter text.	13
+15023	The problem is I don't know the CSS style until runtime, because I'm writing a javascript program to run on many different web pages.	13
+15023	What if it's "body"?	13
+15023	Oh sorry, I mean the style of the outter text, it's determined by the element in which the text is.	13
+15023	You are right, the margin and padding should be always 0 for text. Thanks a lot for helping. BTW, what's the position "static"?	13
+15023	Thanks,this is the perfect solution :D	13
+9867	Together you and Mike have answered it. Thank you!	87
+9867	This one popped into my head an hour after posting the question. For the amount of data I'm crunching (not that much) I would have no problems churning through a bunch or queries. Might want to change time <= end_time to time < end_time to avoid double-counts.	87
+12371	Just to be clearer, I need a tool which will, given the dependencies, show me which headers are the most included. By the way, we do use distributed compiling	64
+12371	This gives me the dependency for each file. I need someting that given this, will find the most included files.	64
+13427	I want add slash only: http://server/path/file -> http://server/path/file/	8
+14836	re: "if xml is the answer" - are you referring here to the use of xml as an intermediate, internal, format for our data or as the outbound format? If the latter, then yea, we're forced to use it. xml as intermediate is probably me seeking flexibility and hitting the YAGNI wall...	62
+15020	This is for business use, We are testing DRDB on GFS, looking into Gluster,but that requires client pieces,We've played around with ZFS on Solaris (and we are looking at AVS for availability), but Solaris keeps having small problems to be over come. We have also started looking at windows DFS.	36
+15020	We are planning to scale up over the next few years to 5-10 TB, but nothing huge. It is a production facility, we could spend 15-30 minutes switching over if we had too, but we want to minimize data loss. Our process are almost 24 x 6, so want to minimize the 3 am calls, would prefer HA	36
+15662	My implementation is on x-based system.	11
+15662	My implementation is on x-based system.	11
+5794	Thanks Tenpn. I am looking for a way to find if the file, needs an updated, has it been modified, or it needs to patched. So you have fair idea of what your sandbox is upto.   I will check out the manual for resolve and "reconcile offline work".  And yes, your answer helped. Thanks.	18
+12376	Thanks for this. Just what I need. Example usage: ScanFormat('number 27 string Hello','number %d string %s',[@anInt,@aString]); Note: Extracting a string won't work if the first character following the string is also contained in the string itself.	53
+5794	Thanks for pointing to the scripts. I agree on the philosophy. I know what I want and it is me who can make it (via script).   For reason unknown, I find Perforce documentation to be cryptic, I need to get into the documentation.	18
+15877	I'm know a bit java and trying to learn ML. But I was more interested in the theory of generating parsetrees than specific parsetools.	47
+7936	Some background. I have a control that calls __DoPostBack, which triggers all the AJAX components in an UpdatePanel to be disposed.  However the linkButtons in the same panel call __DoPostBack, but the components don't dispose.  The difference is in __DoPostBack somewhere (which does a lot of work).	8
+16029	Great!  Thanks for all of the helpful comments!  I believe I will use the library at drewnoakes.com.	48
+16029	Thanks for the code snippet, but I actually need to get the date from the picture metadata, not from the file system.	48
+16091	Thanks anyway, Javascript can not be used in the winforms environment.	28
+16091	I've been working along these lines myself but wanted to check and see if there was something easier before I went ahead with the fix.  Thanks for your answer though.	28
+9150	The only reason we'll be using Word is for the users' ease of use. These templates change on a some what regular basis, so they need to be able to change them and most of the users only have PDF Reader software installed.  Thanks for your advice though.  :-)	88
+9150	I am familiar with CutePDF since I use it personally to print many things to PDF. I've never thought about using it in a server environment. I'll definitely think about that.	88
+16408	is MSFTEDIT_CLASS only for unicode applications?	18
+2533	Thanks.  That was perfect! One addition instead of typeof(UITypeEditor) you can use "System.Drawing.Design.UITypeEditor, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"  found that after some compile erros	13
+4181	But would that work with the default Apache 2 installation? Surely this would install the MacPorts version of Apache first as a dependency? And Perl too in all likelihood from what I remember of previous dalliances…	72
+16289	Okay, so let me digest a little...That call through the object is not akin to an array, but rather a set of chained calls?  [slaps forehead] No wonder it's so heavy... I'm gonna go run this code back through...I'll bring some results back in about an hour	13
+16289	Yeah, but in this instance I expect bad or missing data...so that hit I have to live with.  Question:  Given the other suggestions, I assume that I could bypass that by checking the itemCount at the lowest scope	13
+16502	Good overview doc.  Here's another reference with some motivation behing RESTful (http://ajaxpatterns.org/RESTful_Service).	33
+15588	This is a serious application for audio sensory training. Your comment is rather abbrasive.	6
+15588	How can you, using flash do what I need. Can i combine 3 separate sounds to play one after the other, randomly chosen?	6
+15588	How can you, using flash do what I need. Can i combine 3 separate sounds to play one after the other, randomly chosen?	6
+15588	On your model assumes asceending numberes only, allowing all sequences there would be 6*5*4 combinations which = 120. My model allows duplicates too, so there would be 6*6*6 = 216 combinations. That is just too clumsy, however, its the only workable solution I have heard so far.	6
+16289	Okay, so I tested this out...and I see about a 30% reduction in the time it takes to run...which seems to make senes, because We've effectively reduced one third of the calls for items that are singular.  I'm definitely interested in any othe optimzations that you can think of...	13
+15588	your solution shows how to play and stop a sound, it does not show how to play 2 or more souns one after the other.	6
+10034	Yes, this would be a simple solution if the problem was equally simple. I need to be able to map directly to an existing XML schema. These schemas can be quite complicated, and require deep nesting in some cases. XSLT will work as an intermediate step, but I'd rather avoid that if I could.	82
+14238	In addition to doing this, I've found that Application.ActiveWindow.View needs to be set to xlNormalView (rather than xlPageBreakPreview)  I still get the same 8002000b error unless I've got the view set to xlNormalView.  Thanks for the help!	8
+16289	It works out about the same...There are only two multi-value fields (memberOf and proxyAddresses), and so the load seems to spread out better... I suspect if I just retrieved the multi-values, it'd be quicker (I saw recently that array only had perf boost when randomly searching for values)	13
+16289	Good Point about the count test...	13
+13597	Wait, you've confused me-- You've said to go ahead and get rid of the upper 64 bits of the result?  Why would that be... well, rational...?	46
+13597	Oh, ATT Syntax for the x86? I'm sorry for not adding that info... *Looks for edit button on title*	46
+13597	That's cheating, can't do it that way [else of course I would...]  But thank you, as under normal circumstances that would work out	46
+8399	Hey!  Nice job, that worked!	28
+13597	You indeed are correct, and I wish I had the time to do that-- Next time I'll definitely be more intelligent about this and correctly work out the time to think about this assignment	46
+13597	I think this explanation will do nicely.  Thank you very much, I will definitely look over this very carefully	46
+3350	i am fairly certain that the shell script, which is huge and incredibly complicated starts a new shell process, so that might be where i am getting confused, it doesn't actually set them in the parent process, just the one it creates, that then gets terminated	18
+10890	Thanks superwren - this looks like it might do the trick.	13
+7611	Hey, you're here too!   Thanks Daniel, I'm going to check that.	41
+17171	It doesn't matter in this case. Both solutions would mean the original was changed and it would show the change. I would assume returning "lase Amy" would be easier since the original string is unbroken and at the start of the second string.	86
+9626	I was looking for somthing a bit more "lightweight"    1.  Listing on Port 25 2.  Talk RFC821 (SMTP) 3.  When a message is received, fire an event and let the event handler process the message	57
+15112	yeah basically i want to split an existing desktop app written in C++ into a client and server, where the client can run on desktop OR browser! thanks!	13
+9626	Thanks anyway.  I will see if anyone else responds	57
+5888	@Frnacois  You are right - it does work. The problem seems to be with the actual help files I am using - not the code.	86
+5888	The workaround is a good idea, but having a second app just to open help files is probably overkill. You could achieve the same result using   ShellExecute(Handle,'open',PChar('HelpFileName.chm'), nil, nil, SW_SHOWNORMAL);	86
+17258	in my view, as we do many task parallely, same way we need convert those real life solutions(algorithms) to computer lang.  just as OOPs coding did for procedural coding. OOPs is more real life coding style than procedural one.  so i hope for that kind of solutions.	74
+17265	This seems ideal. I need to test it on some docs, but so far the wvText function seems to do what I need.	28
+17366	That was my initial thought, and I think your quick answer has confirmed that's the way to go.  Thanks!	73
+17372	No the JPEG buffer from the camera does not contain the EXIF section	26
+17456	The objects are java beans, so for all fields there are getters and setters. I don't care about deserialization, I just want to provide a way to help our developers with writing mocking code :)	48
+17372	Thanks. This helps...it differs from the JFIF standard	26
+10034	I have used 'for xml' before even with schemas. The only down side is the performance hit you take on the database. Writing XML from a data set with a schema binding seems like an option though. I will try that.	82
+17691	Right, we are refactoring and moving code down to presenters, services, etc.  But if you've ever worked in the VS IDE with a large ASP.NET VB.NET project before, you know how much VB.NET kills the IDE.  So we're looking for a short-term solution to get past the VB.NET impediment.	51
+17691	Thanks for the response.  I'ma actually not talking about a rewrite.  I can use SharpDevelop for the actual conversion one page at a time.  I was more wondering about the incremental part as it relates to merging 2 asp.net web projects to be deployed as one.  Thanks!	51
+17691	really?  I see 4 tags on the right that I tagged it with when I created the question...  c#, asp.net, vb.net, conversion	51
+12658	Thanks for the links to the RFC.	18
+13138	I worked with a release process that required a long stress test of a high-reliability product. The stress tests included very large volumes of data and multiple overlapping error conditions.  The stress test would run for several days. That was the sort of "further testing"  I was thinking of.	38
+16502	Thanks, I didn't know there was a book out on this.  Will definitely buy.	33
+9364	Good thought, but no dice. It turns out it wasn't a path issue (I think).	21
+17861	You're right that I'm using C++. But let's say I was using Java.. would it still be alright (in terms of OO design) to have GUI "own" cManager even though GUI has nothing to do with cManager at all? What about preventing GUI from changing if cManager changes?	23
+17987	This is an existing BIGTABLE, The Primary key is not an identity field.	26
+18010	I am using IIS so this is probably the route I'd want to go. Thanks! I suppose it won't matter that the remote site is on a Linux server...	41
+17872	Thanks for your answer :-) I modified your code a little using this regular expression "\\[\\]=(\w+)"	8
+17872	Thanks for the excellent link!	8
+17987	It is generated by using the Rnd function and by passing a seed which is also a random number	26
+17987	Many thanks for your reply.. Some more details have been added to the question	26
+17987	This is the current approach. But the loop goes on...	26
+17987	Yes, this is the current process, generate an ID and check if it's used. but this check goes on and on when the random numbers are already in the table.	26
+17987	Yes, But if we sequence the Primary key, we need to worry about the Index page being locked when multiple inserts happen to the table.	26
+17987	Database & Table already exist. we have the seed also a random number.	26
+18116	one reason to look it up at run time is to figure out how many columns it has and what their types are.	23
+18198	from that link - In the .NET Framework version 2.0 and later, demands for identity permissions are ineffective if the calling assembly has full trust.	60
+18198	will this beat reflection?	60
+18198	can it beat reflection?	60
+18198	i am not sure how that will help me..whether it is a .net assembly or a native assembly, anybody should be able to load it right..	60
+18198	ironically, this same assembly is being loaded on demand using reflection. i guess there is no foolproof way to prevent this.	60
+17987	The check is what's in place now, but the check loops many times and wastes database time and locks out other transactions waiting on this one to complete..	26
+17987	yes the logic would need to have the maxID + 1 and then a check o see if that exists already, and if so, then generate another ID, check again.. etc. But is there any logic that gives me a number from the available numbers that are not used so that i dont have to insert.. get the error, try again..	26
+17987	It was a Bad idea.. done a very long time back.. stuck with it now.	26
+17987	No the new Id can be random. - could be sequential also. But if it's sequential, wont the index page be a hotspot when the next row is being inserted and the same index page is being locked?	26
+17987	thought of storing the holes in another table and use it one by one (holes would be huge chunks), typically in sequence within the chunk.  But if it's sequential, wont the index page be a hotspot when the next row is being inserted and the same index page is being locked	26
+17691	Thanks.  That's pretty much the approach we've been taking up until now.  But since we do weekly releases to production, I'm not sure the "wait until they're all done before deploying" part would work for us too well.	51
+17691	Thanks, but the actual conversion itself is not really the issue.  Guess my question title was not all that clear.  It's the "incremental" part of the conversion that relates to merging/deployment of the web project that was really what I was wondering about.	51
+7242	Yeah, I don't control the consumer so I need something that will work generically (and off the .NET platform).	8
+7242	Right - this is exactly the issue - there can be an infinite number of keys, different Foos can have different sets of them, etc. Obviously, on the backend I have this stored as a one-to-many relationship in the database - what I'm more concerned with now is making the API intuitive to use.	8
+7242	Regardless of how I've actually stored them, I want the consumer of the API to be able to have the syntactic nicety of it *looking* like an object with properties. Does that make sense?	8
+18253	Just learned about it today, but that's a separate question.	90
+7242	I don't quite understand what you're getting at. Obviously, I don't have to manually serialize since the runtime is doing that for me. I'm building an API here, so my goal is to make the serialized data look "nicer" by default in the consumer (which I don't control).	8
+18253	Too much data and we'd go to SQL Server Standard.	90
+18253	So just let them install SQL Express, and give good instructions for entering a connect string in the app?	90
+18253	A couple of hours for me? Or a couple of hours for my customers to install it?	90
+18429	This is true, however, the documentation for scriptaculous sayd you can use version 1.6.0.1 or later. Really it's no problem, it's just the fact that, that's what I read.	30
+18547	Unfortunately no. This is defined by application logic.	6
+4181	Because it's not my machine. Because it has a whole load of stuff already set up and running under the default Apache. Because it's a valid question in any case. In the past. for my own purposes, I have always ignored the default install. But this time I can't. Mmmkay?	72
+18253	We like the "file mode" (I think they call it "in process") for single user.  But for multi-users you have to install SQLExpress on a server (or at least on one of the workstations) where the shared file is.	90
+18253	Thanks for the details! How do the clients "find" the server on the first install?  I heard of one company required you map the S: drive to an installation folder on the server, and they picked up the db settings.  Or maybe you could export a config file that you import to clients?	90
+18253	Good call on default parameters and the links.  MSDE is why we stuck with Access for so long.  I'm glad SQLExpress is less trouble.	90
+12371	There are firefox extensions that do this, like password composer	64
+18769	https://www.pwdhash.com/	79
+18769	removing chars because of that just defeats the visual part of password obfuscation.	79
+18769	good for one time passwords.	79
+18769	that's a really neat poem	79
+18769	Nice management tip.	79
+4827	Nice find, this will come in handy once I get the file to where I can see the different sections.	89
+4827	Any ideas on what you consider to be a good hex editor? I'm new to this process.	89
+18860	Yeah it actually is in the tr tags...I just got frazzles figuring out how to write angle brackets. :)	25
+18547	Thank you.It was interesting reading.  However our guys told me that it has heavy locks contention in compare to umem on Solaris.	6
+18860	When the VS window opens up, it can't find the actual code files since they're named and organized differently in the file system.	25
+18769	best in your own eyes. :)	79
+18860	That doesn't fix it, and making it "auto" actually breaks things more in IE.  :( Thanks, though.	25
+18860	Yes! This is it!  I just noticed that IE is making a *duplicate* class tag instead of changing the existing one...oy. Thanks so much!	25
+17978	No, as far as I know, the ashx file contains the javascript objects that the browser needs to do what it needs to do.  But I want to run this in a jvm and not in my browser.  So the url is not the script but the source of the compiled objects to use in a script.	6
+17978	I am trying to run javascript within a jvm, but the javascript classes I want to use are not standard classes but rather are in this src file.	6
+18547	Not sure that this is the best answer. IMHO the one about tcmalloc was better. Cannot vote though	6
+18547	The concept is slightly different. An object could travel through threads handling it. And when its life time will has came to the end it could be in any other thread than the mother-thread. Of course after-life management details are hidden..	6
+17987	Yes , that seems to be the problem.. the loop goes on for more than 50 retries	26
+18939	There is a similar method for TableAdaptors of strongly typed DataSets?	33
+11231	I mean rendering a page, as opposed to a redirect to another action.	58
+11231	I tried your advice without succes, though I think it is the right direction	58
+4827	Thanks, I was hoping that I could keep it generalized, but if this is the only way then I guess I'll have to use the nokia ui sound class.	89
+11231	Nice!  I think @performed_render does work... my bad! I didn't think of my thumbnail action sending an image via send_file, not redirect, thus counting as render, though not being a rendered page. It is only invoked by an image_tag.	58
+4827	As tempting as getting a hex editor and running through all that, I think this process will save a lot of time and headaches.	89
+18526	Now that's nicely written. Having a collapsing width problem though...	13
+18863	Thanks for you help and suggesetion dave.. Please Review...As ive added more info	15
+9176	If I add an event to the window that someone in the future just might write some code that will overwrite it...maybe not a serious issue.	95
+9176	Modern how?  As it has changed in JavaScript or because libs just stack things?	95
+19281	I've just tried to upload one of my PDF files, Google tells me it is not a valid one. Not very convincing for a start.	75
+8975	I am trying to determine whether to add more data to the queue or coalesce updates.  I will easily overflow the buffers and network as the incoming data rate is much higher than the outgoing rate.  But, I can withhold some updates at the expense of user experience.	60
+18923	I guess the real question is how good is the performance and how hard is the coding in a multi-user environment.	16
+18923	And my application requires 2-3 users hitting those files at the same time.	16
+19536	Thank you rich. The xml will be consumed, but there will be provision to update the data in it periodicaly	58
